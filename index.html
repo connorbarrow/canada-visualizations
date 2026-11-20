@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indigenous Peoples in Canada: Interactive Visualizations</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; max-width: 1100px; margin: 0 auto;
+           padding: 20px; color: #222; line-height: 1.5; }
+    h1 { text-align: center; margin-bottom: 4px; }
+    p.intro { text-align: center; color: #555; margin-top: 0; }
+    h2 { margin-top: 40px; border-bottom: 2px solid #ddd; padding-bottom: 6px; }
+    iframe { width: 100%; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>Indigenous Peoples in Canada: Interactive Visualizations</h1>
+  <p class="intro">Based on 2021 Canadian population and health-inequality data</p>
+
+  <h2>Indigenous Population Composition by Province and Territory</h2>
+  <p>Use the layer control to switch between the total count and each group's percentage
+     of the population. Hover over a region for details.</p>
+  <iframe src="map.html" title="Map of Indigenous population composition" height="720"></iframe>
+
+  <h2>Community Belonging and Mental Health Needs Met</h2>
+  <p>Press Play or use the slider to move between Both Sexes, Females, and Males.
+     Hover over a point for details.</p>
+  <iframe src="scatter.html" title="Animated scatterplot" height="740"></iframe>
+
+
+  <h2>Indigenous Composition in the Three Largest Locations</h2>
+  <p>Each donut shows First Nations, Inuit, and Métis shares within the Indigenous population only.</p>
+  <iframe src="donuts.html" title="Donut charts" height="590"></iframe>
+</body>
+</html>
